@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>FreeRide</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+
+</head>
+
+<body>
+
+  <div id="login_div" class="main-div">
+        <button onclick="addride()">Add A Ride</button>
+        <br>
+        <button onclick="findride()">Find A Ride</button>
+        <br>
+        <br>
+        <br>
+        <button onclick="logout()">Logout</button>
+
+  </div>
+
+
+  
+
+
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCy16ndgXs8BWzgkhR9ZhFnoXpRa4Nhyw4",
+    authDomain: "freeride-e829b.firebaseapp.com",
+    projectId: "freeride-e829b",
+    storageBucket: "freeride-e829b.appspot.com",
+    messagingSenderId: "436636757284",
+    appId: "1:436636757284:web:1bf411ad065947102697b1",
+    measurementId: "G-EZQ4NCJQ48"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <script src="index2.js"></script>
+
+</body>
+
+</html>

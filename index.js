@@ -17,7 +17,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
   } else {
     // No user is signed in.
-    
+    // logout();
     document.getElementById("user_div").style.display = "none";
     document.getElementById("login_div").style.display = "block";
 
@@ -96,7 +96,7 @@ function signup(){
     var errorCode = error.code;
     var errorMessage = error.message;
     window.alert("Error : " + errorMessage);
-
+    
     // ..
   });
 }
